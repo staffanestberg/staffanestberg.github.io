@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Staffan Estberg</title>
+    <meta name="description" content="Digital designer based in Bangkok/Stockholm.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Staffan Estberg">
+    <meta property="og:url" content="https://staffanestberg.com/">
+    <meta property="og:site_name" content="Staffan Estberg">
+    <meta property="og:description" content="Digital designer based in Bangkok/Stockholm.">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        /* */
+      }
+      @font-face {
+        font-family: 'Unica Pro Thin';
+        src: url(./fonts/NeueHaasUnicaPro-Thin.woff);
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: 'Unica Pro Light';
+        src: url(./fonts/NeueHaasUnicaPro-Light.woff);
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: 'Unica Pro Light Italic';
+        src: url(./fonts/NeueHaasUnicaPro-LightIt.woff);
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: 'Unica Pro Regular';
+        src: url(./fonts/NeueHaasUnicaPro-Regular.woff);
+        font-weight: normal;
+      }
+      * {
+        border: 0;
+        margin: 0;
+        outline: 0;
+        box-sizing: border-box;
+      }
+      html, body {
+        height: 100%;
+      }
+      img {
+        max-width: 100%;
+      }
+      body {
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale;
+        background: white;
+        color: black;
+        font-family: 'Unica Pro Light', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+      }
+      header, footer {
+        padding: 16px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      nav li {
+        line-height: 36px;
+      }
+      nav li a:hover, .position a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+      }
+      main {
+        padding: 16px;
+      }
+      footer {
+        margin-top: 48px;
+        padding: 16px;
+        border-top: 1px solid black;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      small {
+        display: block;
+        font-size: 12px;
+      }
+      .resume {
+        margin-top: 48px;
+      }
+      .resume div:first-of-type {
+        border: none;
+      }
+      .position {
+        display: flex;
+        border-top: 1px solid black;
+        margin-top: 36px;
+        padding-top: 24px;
+      }
+      h1 {
+        max-width: 960px;
+        text-align: center;
+        font-weight: normal;
+        margin: 0 auto;
+        font-size: 24px;
+        font-family: 'Unica Pro Light', sans-serif;
+      }
+      h1 a {
+        font-family: 'Unica Pro Regular', sans-serif;
+        display: inline-block;
+        line-height: 1;
+      }
+      .position div:first-of-type {
+        width: 35%;
+      }
+      .position div:last-of-type {
+        flex: 1;
+      }
+      .position li {
+        display: inline-block;
+      }
+      .position li:after {
+        content: ',';
+      }
+      .position li:last-child:after {
+        content: '';
+      }
+      a span {
+        background: url('arrow.svg') center center no-repeat;
+        background-size: 100%;
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+        display: inline-block;
+      }
+      .logo {
+        font-family: 'Unica Pro Regular', sans-serif;
+      }
+      @media only screen and (max-width: 1023px) {
+        main {
+          margin-top: 48px;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        body {
+          font-size: 22px;
+        }
+        header, main, footer {
+          padding: 48px;
+        }
+        footer nav {
+          display: flex;
+        }
+        footer nav ul:last-of-type {
+          text-align: right;
+        }
+        small {
+          font-size: 22px;
+        }
+        h1 {
+          font-family: 'Unica Pro Thin', sans-serif;
+          font-size: 42px;
+        }
+        h1 a {
+          font-family: 'Unica Pro Light', sans-serif;
+        }
+        h1 a:hover {
+          box-shadow: inset 0 -32px 0 -12px #ffde03;
+        }
+        .position {
+          margin-top: 48px;
+        }
+        .position div:first-of-type {
+          width: 25%;
+        }
+        .resume {
+          margin-top: 144px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <a href="/" class="logo" title="Staffan Estberg">&mdash;SE</a>
+    </header>
+
+    <main>
+      <h1>I'm a Product Designer based in Kuala Lumpur, working at <a href="https://moneylion.com">MoneyLion</a>. Not available for work. Previously at <a href="https://coinweb.io">Coinweb</a>.</h1>
+    
+      <div class="resume">
+        <div class="position">
+          <div>
+            <span>MoneyLion<small>Nov '22&mdash;Present</small></span>
+          </div>
+          <div>
+            <span>Lead Product Designer</span>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Opacity<small>Mar '20&mdash;Present</small></span>
+          </div>
+          <div>
+            <span>Freelancer / Consultant</span>
+            <ul>
+              <li>Storytel</li>
+              <li><a target="_blank" href="https://phyron.com">Phyron<span></span></a></li>
+              <li><a target="_blank" href="https://allabrf.se">ABRF<span></span></a></li>
+              <li>Rights Management Services</li>
+              <li>TripTaro</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Coinweb<small>Dec '20&mdash;Jun '21</small></span>
+          </div>
+          <div>
+            <span>Lead Designer</span>
+            <ul>
+              <li><a target="_blank" href="https://coinweb.io">Coinweb<span></span></a></li>
+              <li><a target="_blank" href="https://blockfort.io">Blockfort<span></span></a></li>
+              <li><a target="_blank" href="https://onrampwallet.com">OnRamp<span></span></a></li>
+              <li><a target="_blank" href="https://starpoints.com">Starpoints<span></span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Saturate<small>Nov '07&mdash;Mar '20</small></span>
+          </div>
+          <div>
+            <span>Freelancer / Consultant</span>
+            <ul>
+              <li><a target="_blank" href="https://jetty.se">Jetty<span></span></a></li>
+              <li>Spotify</li>
+              <li>Klarna</li>
+              <li>Warner Music Group</li>
+              <li>Delivery Hero</li>
+              <li>Swedish Match</li>
+              <li>Beckers</li>
+              <li>Björn Borg</li>
+              <li>Norrsken Foundation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Perfect Friday<small>Apr '16&mdash;Apr '17</small></span>
+          </div>
+          <div>
+            <span>Co-Founder</span>
+            <ul>
+              <li>Ritz-Carlton Residences</li>
+              <li>Diakrit</li>
+              <li>Sustainable Fashion Academy</li>
+              <li>DotProperty</li>
+              <li>Tacton</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>APPRL<small>Feb '15&mdash;Mar '16</small></span>
+          </div>
+          <div>
+            <span>Head of Design</span>
+            <ul>
+              <li>APPRL</li>
+              <li>Clooset</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>ISPY<small>Apr '11&mdash;Aug '11</small></span>
+          </div>
+          <div>
+            <span>Creative Director</span>
+            <ul>
+              <li>Notar</li>
+              <li>Telenor</li>
+              <li>Primewine</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Ocean Observations<small>Aug '10&mdash;Mar '11</small></span>
+          </div>
+          <div>
+            <span>Visual Designer</span>
+            <ul>
+              <li>Modern Times Group</li>
+              <li>Telia</li>
+              <li>ABB</li>
+              <li>Electrolux</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="position">
+          <div>
+            <span>Spray<small>Sep '06&mdash;Oct '07</small></span>
+          </div>
+          <div>
+            <span>Art Director</span>
+            <ul>
+              <li>Spray Web</li>
+              <li>Spray Date</li>
+              <li>Tradera</li>
+              <li>Passagen</li>
+              <li>Hitta.se</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="https://linkedin.com/in/staffanestberg">LinkedIn</a></li>
+          <li><a href="https://www.behance.net/staffanestberg">Behance</a></li>
+          <li><a href="https://dribbble.com/staffanestberg">Dribbble</a></li>
+        </ul>
+
+        <ul>
+          <li><a target="_self" href="mailto:hello@staffanestberg.com">hello@staffanestberg.com</a></li>
+          <li><a target="_self" href="tel:+46706246344">+66 945 739 658</a></li>
+          <li><a href="cv-staffan-estberg.pdf">Resume<span></span></a></li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-133820465-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
